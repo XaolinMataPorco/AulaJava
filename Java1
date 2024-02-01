@@ -1,0 +1,27 @@
+class Bola {
+    private String Cor;
+
+    Bola(String Cor) {
+        this.Cor = Cor;
+    }
+    
+    public String getcor () {
+        return Cor;
+    }
+
+    public void setCor (String Cor){
+        this.Cor = Cor;
+    }
+
+    public static void main(String[] args) {
+
+        Bola Bola1 = new Bola ("Black");
+        System.out.println("Cor: " + Bola1.getcor());
+
+        Bola1.setCor ("White");
+        System.out.println("Nova cor da bola: " + Bola1.getcor());
+    }
+}
+
+    
+
